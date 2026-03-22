@@ -36,6 +36,22 @@ Official GoDaddy help shows:
 7. In hosting settings, set PHP to a modern version such as `8.1+`.
 8. Open `https://nbsshrservices.in` and verify the site loads.
 
+## GitHub auto-deploy option
+
+This repo now includes a GitHub Actions workflow at:
+
+- `.github/workflows/deploy-ftp.yml`
+
+Add these GitHub repository secrets before running it:
+
+- `FTP_HOST`
+- `FTP_PORT` (optional, defaults to `21`)
+- `FTP_USERNAME`
+- `FTP_PASSWORD`
+- `FTP_SERVER_DIR` (optional, defaults to `public_html`)
+
+Once those secrets are added, every push to `main` can deploy the portal to your hosting account over FTP.
+
 ## If you host somewhere else
 
 Update DNS in GoDaddy:

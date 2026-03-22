@@ -9,6 +9,7 @@ A lightweight PHP job portal starter with:
 - Protected dashboard with category and application insights
 - JSON-based persistence for quick local demos
 - SEO-ready metadata, structured data, robots.txt, and sitemap.xml
+- GitHub Actions FTP deployment workflow for hosting
 
 ## Structure
 
@@ -46,5 +47,11 @@ Open `http://localhost:8000`.
   - Email: `employer@hireloop.in`
   - Password: `Employer@123`
 - Override employer access with `EMPLOYER_EMAIL`, `EMPLOYER_PASSWORD`, and `EMPLOYER_NAME`
+- For GitHub-to-hosting deploys, add repository secrets:
+  - `FTP_HOST`
+  - `FTP_PORT` (optional, default `21`)
+  - `FTP_USERNAME`
+  - `FTP_PASSWORD`
+  - `FTP_SERVER_DIR` (optional, default `public_html`)
 - No database is required for this starter version
 - This can be extended later with MySQL, login, admin roles, and recruiter dashboards
