@@ -10,6 +10,7 @@ A lightweight PHP job portal starter with:
 - JSON-based persistence for quick local demos
 - SEO-ready metadata, structured data, robots.txt, and sitemap.xml
 - GitHub Actions FTP deployment workflow for hosting
+- Static HTML version with JavaScript + localStorage support
 
 ## Structure
 
@@ -24,6 +25,7 @@ php-job-portal/
     data.php
     layout.php
   index.php
+  index.html
 ```
 
 ## Run Locally
@@ -36,6 +38,14 @@ php -S localhost:8000
 ```
 
 Open `http://localhost:8000`.
+
+## HTML Version
+
+- `index.html` is the static HTML rebuild of the portal
+- It uses `assets/app.js` plus browser `localStorage`
+- It works without PHP backend logic for demo hosting scenarios
+- Open `http://localhost:8000/index.html` to use the HTML version
+- `.htaccess` is included so Apache hosting can open `index.html` before `index.php`
 
 ## Notes
 

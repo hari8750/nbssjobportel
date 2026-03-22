@@ -12,6 +12,14 @@ For this PHP job portal, use one of these paths:
 1. Move the domain to `GoDaddy Web Hosting (cPanel)` and upload this project there.
 2. Host the PHP site on another provider and point the domain DNS to that server.
 
+If you need a non-PHP version, this project now also includes:
+
+- `index.html`
+- `assets/app.js`
+
+That version runs as a static HTML + JavaScript portal using browser `localStorage`.
+An `.htaccess` file is also included so Apache hosting can load `index.html` before `index.php`.
+
 ## Best option on GoDaddy
 
 Use `Web Hosting (cPanel)`.
