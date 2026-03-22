@@ -805,7 +805,7 @@ render_flash_banner($flash);
 
                         <label>
                             Employer email
-                            <input type="email" name="email" value="<?php echo h($employerLoginData['email']); ?>" placeholder="employer@hireloop.in" autocomplete="username">
+                            <input type="email" name="email" value="<?php echo h($employerLoginData['email']); ?>" placeholder="employer@nbsshrservices.in" autocomplete="username">
                         </label>
 
                         <label>
@@ -974,7 +974,7 @@ render_flash_banner($flash);
                 <div class="section-heading section-heading-split">
                     <div>
                         <p class="eyebrow">Popular searches</p>
-                        <h2>Trending searches on HireLoop</h2>
+                        <h2>Trending searches on NBSS HR Services</h2>
                     </div>
                     <a class="text-link" href="#job-feed">Explore all jobs</a>
                 </div>
@@ -1298,7 +1298,7 @@ render_flash_banner($flash);
                 <div class="download-card">
                     <div class="download-phone">
                         <span class="micro-pill is-featured">Quick apply</span>
-                        <h3>HireLoop Mobile Experience</h3>
+                        <h3>NBSS HR Services Mobile Experience</h3>
                         <p>Track applications, open saved roles, and get a clearer sense of what is moving in your funnel.</p>
                         <div class="download-metrics">
                             <div>
@@ -1326,7 +1326,7 @@ render_flash_banner($flash);
         <section class="section">
             <div class="container cta-band employer-band">
                 <div>
-                    <p class="eyebrow">HireLoop for employers</p>
+                    <p class="eyebrow">NBSS HR Services for employers</p>
                     <h2>Want to hire? Post a job and start getting candidates faster.</h2>
                     <p>Use the built-in posting form to add fresh openings instantly, then monitor application flow from the dashboard page.</p>
                 </div>

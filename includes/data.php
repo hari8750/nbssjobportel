@@ -5,12 +5,14 @@ const STORAGE_JOBS = __DIR__ . '/../data/jobs.json';
 const STORAGE_APPLICATIONS = __DIR__ . '/../data/applications.json';
 const STORAGE_SITEMAP = __DIR__ . '/../sitemap.xml';
 const STORAGE_ROBOTS = __DIR__ . '/../robots.txt';
-const SITE_NAME = 'HireLoop';
+const SITE_NAME = 'NBSS HR Services';
+const SITE_MARK = 'NB';
+const SITE_TAGLINE = 'Jobs for India';
 const SITE_DEFAULT_URL = 'http://127.0.0.1:8000';
-const SITE_DEFAULT_DESCRIPTION = 'Discover jobs across India, explore roles by category and city, and manage hiring workflows with HireLoop.';
-const EMPLOYER_DEFAULT_EMAIL = 'employer@hireloop.in';
+const SITE_DEFAULT_DESCRIPTION = 'Discover jobs across India, explore roles by category and city, and manage hiring workflows with NBSS HR Services.';
+const EMPLOYER_DEFAULT_EMAIL = 'employer@nbsshrservices.in';
 const EMPLOYER_DEFAULT_PASSWORD = 'Employer@123';
-const EMPLOYER_DEFAULT_NAME = 'HireLoop Employer';
+const EMPLOYER_DEFAULT_NAME = 'NBSS HR Services Employer';
 
 function default_jobs(): array
 {
@@ -1064,7 +1066,7 @@ function excel_cell(?string $value): string
 
 function output_applications_excel(array $applications): void
 {
-    $filename = 'hireloop-applications-' . date('Y-m-d-H-i') . '.xls';
+    $filename = 'nbss-hr-services-applications-' . date('Y-m-d-H-i') . '.xls';
 
     header('Content-Type: application/vnd.ms-excel; charset=UTF-8');
     header('Content-Disposition: attachment; filename="' . $filename . '"');
@@ -1077,7 +1079,7 @@ function output_applications_excel(array $applications): void
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>HireLoop Applications Export</title>
+    <title>NBSS HR Services Applications Export</title>
 </head>
 <body>
     <table border="1">
@@ -1376,19 +1378,19 @@ function build_seo_metadata(string $page, array $context = []): array
 
     if ($page === 'employer-login') {
         $title = 'Employer Login | ' . SITE_NAME;
-        $description = 'Sign in as an employer to access the HireLoop job posting page and dashboard.';
+        $description = 'Sign in as an employer to access the NBSS HR Services job posting page and dashboard.';
         $canonical = absolute_url('index.php', ['page' => 'employer-login']);
         $robots = 'noindex,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1';
         $schemas[] = webpage_schema($title, $description, $canonical);
     } elseif ($page === 'post-job') {
         $title = 'Post a Job on ' . SITE_NAME;
-        $description = 'Publish roles quickly on HireLoop and keep your hiring workflow simple with the built-in employer posting form.';
+        $description = 'Publish roles quickly on NBSS HR Services and keep your hiring workflow simple with the built-in employer posting form.';
         $canonical = absolute_url('index.php', ['page' => 'post-job']);
         $robots = 'noindex,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1';
         $schemas[] = webpage_schema($title, $description, $canonical);
     } elseif ($page === 'dashboard') {
         $title = 'Hiring Dashboard | ' . SITE_NAME;
-        $description = 'Track job openings, application volume, and hiring activity from the HireLoop dashboard.';
+        $description = 'Track job openings, application volume, and hiring activity from the NBSS HR Services dashboard.';
         $canonical = absolute_url('index.php', ['page' => 'dashboard']);
         $robots = 'noindex,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1';
         $schemas[] = webpage_schema($title, $description, $canonical);
@@ -1407,7 +1409,7 @@ function build_seo_metadata(string $page, array $context = []): array
         $filterLabel = filter_label($filters);
         $count = count($filteredJobs);
         $title = ($count > 0 ? $count . ' ' : '') . 'Filtered Jobs' . ($filterLabel !== '' ? ' for ' . $filterLabel : '') . ' | ' . SITE_NAME;
-        $description = seo_text('Explore filtered jobs on HireLoop' . ($filterLabel !== '' ? ' for ' . $filterLabel : '') . '. Browse current openings and switch filters to discover more roles across India.', 160);
+        $description = seo_text('Explore filtered jobs on NBSS HR Services' . ($filterLabel !== '' ? ' for ' . $filterLabel : '') . '. Browse current openings and switch filters to discover more roles across India.', 160);
         $canonical = absolute_url();
         $robots = 'noindex,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1';
         $schemas[] = webpage_schema($title, $description, $canonical);
@@ -1418,7 +1420,7 @@ function build_seo_metadata(string $page, array $context = []): array
     } else {
         $jobsCount = (string) ($dashboard['jobs_count'] ?? count($filteredJobs));
         $title = 'Jobs in India | ' . SITE_NAME . ' Job Search Portal';
-        $description = seo_text('Discover ' . $jobsCount . ' active job openings across support, sales, logistics, marketing, design, and software teams on HireLoop.', 160);
+        $description = seo_text('Discover ' . $jobsCount . ' active job openings across support, sales, logistics, marketing, design, and software teams on NBSS HR Services.', 160);
         $canonical = absolute_url();
         $schemas[] = webpage_schema($title, $description, $canonical);
 

@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
-  <title id="title">HireLoop SEO Share Banner</title>
-  <desc id="desc">Preview banner for HireLoop job portal pages.</desc>
+  <title id="title">NBSS HR Services SEO Share Banner</title>
+  <desc id="desc">Preview banner for NBSS HR Services job portal pages.</desc>
   <defs>
     <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" stop-color="#0f3470" />
@@ -20,9 +20,9 @@
   <rect x="72" y="68" width="1056" height="494" rx="36" fill="url(#card)" stroke="rgba(18,37,63,0.08)" />
 
   <rect x="116" y="120" width="74" height="74" rx="22" fill="#1768ff" />
-  <text x="153" y="168" text-anchor="middle" font-size="34" font-family="Verdana, Arial, sans-serif" font-weight="700" fill="#ffffff">HL</text>
+  <text x="153" y="168" text-anchor="middle" font-size="34" font-family="Verdana, Arial, sans-serif" font-weight="700" fill="#ffffff">NB</text>
 
-  <text x="222" y="148" font-size="28" font-family="Verdana, Arial, sans-serif" font-weight="700" fill="#12253f">HireLoop</text>
+  <text x="222" y="148" font-size="28" font-family="Verdana, Arial, sans-serif" font-weight="700" fill="#12253f">NBSS HR Services</text>
   <text x="222" y="183" font-size="18" font-family="Verdana, Arial, sans-serif" fill="#5e6f86">Jobs for India</text>
 
   <text x="116" y="276" font-size="62" font-family="Verdana, Arial, sans-serif" font-weight="700" fill="#12253f">Search Jobs, Hire Faster.</text>
@@ -30,7 +30,7 @@
   <text x="116" y="370" font-size="28" font-family="Verdana, Arial, sans-serif" fill="#4f627c">candidate applications, dashboard insights, and SEO-ready pages.</text>
 
   <rect x="116" y="424" width="254" height="54" rx="27" fill="#1768ff" />
-  <text x="243" y="458" text-anchor="middle" font-size="22" font-family="Verdana, Arial, sans-serif" font-weight="700" fill="#ffffff">hireloop job portal</text>
+  <text x="243" y="458" text-anchor="middle" font-size="20" font-family="Verdana, Arial, sans-serif" font-weight="700" fill="#ffffff">nbss hr services</text>
 
   <rect x="394" y="424" width="192" height="54" rx="27" fill="#eaf1ff" stroke="rgba(18,37,63,0.08)" />
   <text x="490" y="458" text-anchor="middle" font-size="22" font-family="Verdana, Arial, sans-serif" font-weight="700" fill="#0b4fce">quick apply</text>

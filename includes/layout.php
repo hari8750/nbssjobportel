@@ -80,10 +80,10 @@ function render_header(string $activePage, array $seo = []): void
         <header class="site-header">
             <div class="container header-inner">
                 <a class="brand" href="index.php">
-                    <span class="brand-mark">HL</span>
+                    <span class="brand-mark"><?php echo h(SITE_MARK); ?></span>
                     <span class="brand-copy">
-                        <strong>HireLoop</strong>
-                        <small>Jobs for India</small>
+                        <strong><?php echo h(SITE_NAME); ?></strong>
+                        <small><?php echo h(SITE_TAGLINE); ?></small>
                     </span>
                 </a>
                 <nav class="site-nav" aria-label="Primary">
@@ -131,7 +131,7 @@ function render_footer(): void
         <footer class="site-footer">
             <div class="container footer-grid">
                 <div class="footer-brand-block">
-                    <p class="footer-brand">HireLoop</p>
+                    <p class="footer-brand"><?php echo h(SITE_NAME); ?></p>
                     <p class="footer-copy">A jobs-first PHP portal inspired by modern Indian job marketplaces, built for quick customisation and local deployment.</p>
                     <div class="footer-store-row">
                         <span>Quick apply</span>
@@ -252,7 +252,7 @@ function render_job_card(array $job, array $filters, string $selectedJobId): voi
     ?>
     <article class="job-card <?php echo $selectedClass; ?>">
         <div class="job-card-brand">
-            <span class="company-badge"><?php echo h(company_monogram($company !== '' ? $company : 'HireLoop')); ?></span>
+            <span class="company-badge"><?php echo h(company_monogram($company !== '' ? $company : SITE_NAME)); ?></span>
             <div class="job-card-brand-copy">
                 <div class="job-card-head">
                     <span class="eyebrow"><?php echo h((string) ($job['category'] ?? '')); ?></span>
@@ -286,7 +286,7 @@ function render_job_card(array $job, array $filters, string $selectedJobId): voi
                 data-job-type="<?php echo h((string) ($job['type'] ?? '')); ?>"
                 data-job-experience="<?php echo h((string) ($job['experience'] ?? '')); ?>"
                 data-job-salary="<?php echo h((string) ($job['salary'] ?? '')); ?>"
-                data-job-badge="<?php echo h(company_monogram($company !== '' ? $company : 'HireLoop')); ?>"
+                data-job-badge="<?php echo h(company_monogram($company !== '' ? $company : SITE_NAME)); ?>"
             >Apply now</a>
         </div>
     </article>

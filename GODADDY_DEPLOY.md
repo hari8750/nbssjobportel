@@ -67,5 +67,5 @@ This portal auto-detects the live host from the request, so once it is served fr
 
 ## Demo employer login
 
-- Email: `employer@hireloop.in`
+- Email: `employer@nbsshrservices.in`
 - Password: `Employer@123`

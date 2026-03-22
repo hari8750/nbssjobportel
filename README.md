@@ -1,4 +1,4 @@
-# HireLoop PHP Job Portal
+# NBSS HR Services PHP Job Portal
 
 A lightweight PHP job portal starter with:
 
@@ -44,7 +44,7 @@ Open `http://localhost:8000`.
 - `robots.txt` and `sitemap.xml` are generated automatically from the current jobs
 - Set `APP_URL` in your environment for production so canonical URLs and sitemap links use your real domain
 - Default employer login:
-  - Email: `employer@hireloop.in`
+  - Email: `employer@nbsshrservices.in`
   - Password: `Employer@123`
 - Override employer access with `EMPLOYER_EMAIL`, `EMPLOYER_PASSWORD`, and `EMPLOYER_NAME`
 - For GitHub-to-hosting deploys, add repository secrets:
