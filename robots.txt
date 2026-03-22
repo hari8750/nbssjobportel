@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+Disallow: /index.php?page=employer-login
+Disallow: /index.php?page=dashboard
+Disallow: /index.php?page=post-job
+Disallow: /*apply=1
+Sitemap: http://127.0.0.1:8000/sitemap.xml

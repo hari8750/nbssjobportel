@@ -1,0 +1,72 @@
+[
+    {
+        "id": "app_hireloop_01",
+        "job_id": "job_hireloop_02",
+        "job_title": "Customer Support Specialist",
+        "company": "SwiftPe",
+        "candidate_name": "Ananya Sharma",
+        "email": "ananya.sharma@example.com",
+        "phone": "9876543210",
+        "city": "Jaipur",
+        "experience": "2 years in customer support",
+        "summary": "Handled merchant support for a payments startup and consistently maintained high CSAT scores.",
+        "status": "Reviewing",
+        "applied_at": "2026-03-22T08:25:00+05:30"
+    },
+    {
+        "id": "app_hireloop_02",
+        "job_id": "job_hireloop_05",
+        "job_title": "Laravel Developer",
+        "company": "StackMint",
+        "candidate_name": "Rahul Verma",
+        "email": "rahul.verma@example.com",
+        "phone": "9123456780",
+        "city": "Hyderabad",
+        "experience": "3 years building internal tools and API services",
+        "summary": "Worked on Laravel dashboards, auth flows, and performance tuning for a logistics platform.",
+        "status": "Shortlisted",
+        "applied_at": "2026-03-21T19:40:00+05:30"
+    },
+    {
+        "id": "app_hireloop_03",
+        "job_id": "job_hireloop_01",
+        "job_title": "Growth Marketing Manager",
+        "company": "OrbitHive",
+        "candidate_name": "Sneha Iyer",
+        "email": "sneha.iyer@example.com",
+        "phone": "9988776655",
+        "city": "Bengaluru",
+        "experience": "4 years across B2B demand generation and lifecycle campaigns",
+        "summary": "Scaled paid, organic, and CRM campaigns with a strong focus on experimentation and reporting.",
+        "status": "New",
+        "applied_at": "2026-03-21T10:15:00+05:30"
+    },
+    {
+        "id": "app_hireloop_04",
+        "job_id": "job_hireloop_10",
+        "job_title": "Night Shift Customer Support",
+        "company": "NovaCare",
+        "candidate_name": "Aakash Kumar",
+        "email": "aakash.kumar@example.com",
+        "phone": "9001122334",
+        "city": "Gurugram",
+        "experience": "18 months in customer support and ticket handling",
+        "summary": "Comfortable with rotational and night shift support processes across voice and chat queues.",
+        "status": "Reviewing",
+        "applied_at": "2026-03-22T09:40:00+05:30"
+    },
+    {
+        "id": "app_hireloop_05",
+        "job_id": "job_hireloop_07",
+        "job_title": "Telecalling Executive",
+        "company": "BlueNest Connect",
+        "candidate_name": "Priya Soni",
+        "email": "priya.soni@example.com",
+        "phone": "9811223344",
+        "city": "Jaipur",
+        "experience": "6 months of telesales and customer follow-up work",
+        "summary": "Handled high-volume outbound calling and lead qualification for education and insurance campaigns.",
+        "status": "Shortlisted",
+        "applied_at": "2026-03-22T09:10:00+05:30"
+    }
+]

@@ -1,0 +1,334 @@
+[
+    {
+        "id": "job_899b23aae5",
+        "title": "Delivery Boy",
+        "company": "Blinkit",
+        "location": "DELHI",
+        "salary": "30000rs- 40000rs",
+        "type": "Shift-based",
+        "category": "Delivery Boy",
+        "experience": "0 To Any",
+        "description": "sales\r\nE-commerce\r\nqualification\r\nAll Education levels\r\ngender\r\nAll genders\r\njobShift\r\nFlexible Shift\r\nstar\r\nJob Benefits: Medical Benefits\r\nstar\r\nBike, 2-Wheeler Driving Licence",
+        "requirements": [
+            "sales",
+            "E-commerce",
+            "qualification",
+            "All Education levels",
+            "gender",
+            "All genders",
+            "jobShift",
+            "Flexible Shift",
+            "star",
+            "Job Benefits: Medical Benefits",
+            "Bike",
+            "2-Wheeler Driving Licence"
+        ],
+        "skills": [],
+        "featured": false,
+        "created_at": "2026-03-22T14:29:05+05:30"
+    },
+    {
+        "id": "job_7be4c5d2b5",
+        "title": "Delivery Boy",
+        "company": "Blinkit",
+        "location": "DELHI",
+        "salary": "30000rs- 40000rs",
+        "type": "Shift-based",
+        "category": "Delivery Boy",
+        "experience": "0 To Any",
+        "description": "sales\r\nE-commerce\r\nqualification\r\nAll Education levels\r\ngender\r\nAll genders\r\njobShift\r\nFlexible Shift\r\nstar\r\nJob Benefits: Medical Benefits\r\nstar\r\nBike, 2-Wheeler Driving Licence",
+        "requirements": [
+            "sales",
+            "E-commerce",
+            "qualification",
+            "All Education levels",
+            "gender",
+            "All genders",
+            "jobShift",
+            "Flexible Shift",
+            "star",
+            "Job Benefits: Medical Benefits",
+            "Bike",
+            "2-Wheeler Driving Licence"
+        ],
+        "skills": [],
+        "featured": false,
+        "created_at": "2026-03-22T14:28:53+05:30"
+    },
+    {
+        "id": "job_hireloop_07",
+        "title": "Telecalling Executive",
+        "company": "BlueNest Connect",
+        "location": "Jaipur",
+        "salary": "INR 2.8L - 4L",
+        "type": "Full-time",
+        "category": "Telecalling / BPO / Telesales",
+        "experience": "0-1 years",
+        "description": "Call warm leads, explain plans clearly, and help the sales team convert interest into booked demos and follow-ups.",
+        "requirements": [
+            "Confident Hindi communication",
+            "Basic CRM data entry",
+            "Comfort with daily call targets"
+        ],
+        "skills": [
+            "Telecalling",
+            "Lead Follow-up",
+            "CRM"
+        ],
+        "featured": true,
+        "created_at": "2026-03-22T10:05:00+05:30"
+    },
+    {
+        "id": "job_hireloop_08",
+        "title": "Delivery Associate (Part-time)",
+        "company": "GoFleet",
+        "location": "Chennai",
+        "salary": "INR 18,000 - 28,000 / month",
+        "type": "Part-time",
+        "category": "Delivery / Driver / Logistics",
+        "experience": "0-2 years",
+        "description": "Deliver nearby orders in flexible shifts, manage proof-of-delivery updates, and maintain a strong on-time completion rate.",
+        "requirements": [
+            "Valid driving license",
+            "Own smartphone and bike",
+            "Willing to work flexible shifts"
+        ],
+        "skills": [
+            "Delivery Ops",
+            "Route Handling",
+            "Customer Service"
+        ],
+        "featured": false,
+        "created_at": "2026-03-22T09:25:00+05:30"
+    },
+    {
+        "id": "job_hireloop_01",
+        "title": "Growth Marketing Manager",
+        "company": "OrbitHive",
+        "location": "Bengaluru",
+        "salary": "INR 12L - 18L",
+        "type": "Hybrid",
+        "category": "Marketing",
+        "experience": "3-5 years",
+        "description": "Lead demand-generation campaigns, own funnel metrics, and partner closely with brand and product teams to scale acquisition.",
+        "requirements": [
+            "Hands-on experience with paid campaigns and lifecycle funnels",
+            "Strong reporting skills and comfort with attribution analysis",
+            "Ability to ship experiments every week"
+        ],
+        "skills": [
+            "Performance Marketing",
+            "CRM",
+            "Analytics"
+        ],
+        "featured": true,
+        "created_at": "2026-03-22T09:15:00+05:30"
+    },
+    {
+        "id": "job_hireloop_09",
+        "title": "Back Office Executive",
+        "company": "LedgerLane",
+        "location": "Lucknow",
+        "salary": "INR 2.6L - 3.8L",
+        "type": "Full-time",
+        "category": "Admin / Back Office / Computer Operator",
+        "experience": "0-2 years",
+        "description": "Maintain records, support invoice processing, and keep backend data updated for the operations and finance teams.",
+        "requirements": [
+            "Strong typing and spreadsheet skills",
+            "Attention to detail",
+            "Comfort with repetitive documentation tasks"
+        ],
+        "skills": [
+            "Data Entry",
+            "MS Excel",
+            "Documentation"
+        ],
+        "featured": false,
+        "created_at": "2026-03-22T08:55:00+05:30"
+    },
+    {
+        "id": "job_hireloop_10",
+        "title": "Night Shift Customer Support",
+        "company": "NovaCare",
+        "location": "Gurugram",
+        "salary": "INR 3.6L - 5.2L",
+        "type": "Night Shift",
+        "category": "Customer Support",
+        "experience": "1-3 years",
+        "description": "Handle inbound night-shift support queues, solve customer issues, and coordinate with the day team for detailed escalations.",
+        "requirements": [
+            "Prior customer support experience",
+            "Comfort with night shift timings",
+            "Clear spoken and written English"
+        ],
+        "skills": [
+            "Voice Support",
+            "Escalation Handling",
+            "Ticketing"
+        ],
+        "featured": true,
+        "created_at": "2026-03-22T08:20:00+05:30"
+    },
+    {
+        "id": "job_hireloop_02",
+        "title": "Customer Support Specialist",
+        "company": "SwiftPe",
+        "location": "Remote",
+        "salary": "INR 4.2L - 6L",
+        "type": "Remote",
+        "category": "Support",
+        "experience": "1-3 years",
+        "description": "Resolve merchant queries across chat and email, manage escalations, and turn customer feedback into product-ready insights.",
+        "requirements": [
+            "Excellent written English and Hindi",
+            "Prior SaaS or fintech support experience",
+            "Comfort with shift-based coverage"
+        ],
+        "skills": [
+            "Zendesk",
+            "Escalation Handling",
+            "CX Ops"
+        ],
+        "featured": true,
+        "created_at": "2026-03-22T07:40:00+05:30"
+    },
+    {
+        "id": "job_hireloop_11",
+        "title": "Field Sales Executive",
+        "company": "UrbanReach",
+        "location": "Ahmedabad",
+        "salary": "INR 3.8L - 6L",
+        "type": "Full-time",
+        "category": "Sales & BD",
+        "experience": "1-3 years",
+        "description": "Meet local businesses, pitch subscription plans, and grow the pipeline through daily outbound and field activity.",
+        "requirements": [
+            "Field sales experience preferred",
+            "Strong persuasion skills",
+            "Comfort with target-based incentives"
+        ],
+        "skills": [
+            "Field Sales",
+            "Prospecting",
+            "Negotiation"
+        ],
+        "featured": false,
+        "created_at": "2026-03-21T20:10:00+05:30"
+    },
+    {
+        "id": "job_hireloop_03",
+        "title": "UI/UX Designer",
+        "company": "Northstar Studio",
+        "location": "Pune",
+        "salary": "INR 8L - 11L",
+        "type": "Full-time",
+        "category": "Design",
+        "experience": "2-4 years",
+        "description": "Design clean product flows, clickable prototypes, and polished interface systems for mobile and web experiences.",
+        "requirements": [
+            "Strong portfolio with shipped digital products",
+            "Figma prototyping and design-system experience",
+            "Ability to collaborate with engineers and PMs"
+        ],
+        "skills": [
+            "Figma",
+            "Design Systems",
+            "Wireframing"
+        ],
+        "featured": false,
+        "created_at": "2026-03-21T18:30:00+05:30"
+    },
+    {
+        "id": "job_hireloop_12",
+        "title": "Software / Web Developer",
+        "company": "DevHarbor",
+        "location": "Noida",
+        "salary": "INR 6.5L - 10L",
+        "type": "Hybrid",
+        "category": "Software / Web Developer",
+        "experience": "1-4 years",
+        "description": "Build internal dashboards, ship product-facing UI, and support API integrations across web workflows and admin tools.",
+        "requirements": [
+            "Strong HTML, CSS, JavaScript basics",
+            "PHP or Laravel familiarity preferred",
+            "Version control and debugging comfort"
+        ],
+        "skills": [
+            "PHP",
+            "JavaScript",
+            "Frontend"
+        ],
+        "featured": true,
+        "created_at": "2026-03-21T17:35:00+05:30"
+    },
+    {
+        "id": "job_hireloop_04",
+        "title": "Business Development Executive",
+        "company": "MarketLance",
+        "location": "New Delhi",
+        "salary": "INR 5L - 7.5L",
+        "type": "Full-time",
+        "category": "Sales",
+        "experience": "1-2 years",
+        "description": "Prospect mid-market clients, qualify inbound leads, and help the partnerships team move opportunities through the pipeline.",
+        "requirements": [
+            "Strong communication and lead-nurturing skills",
+            "Comfort with outbound calling and demos",
+            "Experience using a CRM to track activity"
+        ],
+        "skills": [
+            "Sales Funnel",
+            "Lead Generation",
+            "CRM"
+        ],
+        "featured": true,
+        "created_at": "2026-03-21T12:10:00+05:30"
+    },
+    {
+        "id": "job_hireloop_05",
+        "title": "Laravel Developer",
+        "company": "StackMint",
+        "location": "Hyderabad",
+        "salary": "INR 9L - 14L",
+        "type": "Full-time",
+        "category": "Engineering",
+        "experience": "2-5 years",
+        "description": "Build backend APIs, optimize database queries, and contribute to a growing product platform using Laravel and modern PHP practices.",
+        "requirements": [
+            "Production experience with Laravel and MySQL",
+            "API design and authentication knowledge",
+            "Good debugging and code-review habits"
+        ],
+        "skills": [
+            "PHP",
+            "Laravel",
+            "REST APIs"
+        ],
+        "featured": false,
+        "created_at": "2026-03-20T16:45:00+05:30"
+    },
+    {
+        "id": "job_hireloop_06",
+        "title": "Operations Coordinator",
+        "company": "UrbanBasket",
+        "location": "Mumbai",
+        "salary": "INR 4.8L - 6.5L",
+        "type": "Shift-based",
+        "category": "Operations",
+        "experience": "1-3 years",
+        "description": "Coordinate city operations, monitor SLAs, and keep field teams aligned with real-time business priorities.",
+        "requirements": [
+            "Strong spreadsheet and process-tracking skills",
+            "Comfort with fast-moving operations environments",
+            "Willingness to work rotational shifts"
+        ],
+        "skills": [
+            "Operations",
+            "SLA Tracking",
+            "Excel"
+        ],
+        "featured": false,
+        "created_at": "2026-03-20T09:20:00+05:30"
+    }
+]
